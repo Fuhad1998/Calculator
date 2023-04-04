@@ -1,0 +1,31 @@
+.container {
+  width: 500px;
+  border: 2px solid lightcoral;
+}
+.input input {
+  width: 495npx;
+  height: 80px;
+  border-radius: 5px;
+}
+.btn-prants {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.btn {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 5px;
+  padding: 5px;
+}
+.btn-equal{
+    background-color: rgb(62, 62, 230);
+    font-size: 2em;
+}
+
